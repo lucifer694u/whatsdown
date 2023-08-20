@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "Start": "node server.js"
+    "Start": "nodemon server.js"
   },
   "author": "himanshu kumar",
   "license": "ISC",
@@ -17,6 +17,7 @@
     "express": "^4.18.2",
     "mongodb": "^5.7.0",
     "mongoose": "^7.4.3",
+    "nodemon": "^3.0.1",
     "pusher": "^5.1.3"
   }
 }
